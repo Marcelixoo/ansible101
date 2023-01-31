@@ -1,0 +1,8 @@
+[All]
+107.22.144.223
+35.175.129.149
+54.146.88.115
+
+[all:vars]
+ansible_ssh_private_key_file=/Users/marcelo.teixeira/Personal/fullcycle3.0/ansible/fullcycle-ansible-class.pem
+ansible_user=ubuntu
