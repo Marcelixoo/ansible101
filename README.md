@@ -21,3 +21,18 @@ Composed of three main components:
 - ansible is smart enough to check the state of the hosts before applying changes, similar to how kubernetes applies only the necessary changes to reach a desired state.
 - keep an eye on available community and builtin plugins to most common tasks, such as git, pip, apt, docker.
 
+## setup
+
+To setup the key to authenticate to AWS resources, type the following.
+
+```
+make setup
+```
+
+The command will prompt you for a password to decrypt the key.
+
+To run all tasks in all hosts
+```
+make execute
+```
+
